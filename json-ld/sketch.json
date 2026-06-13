@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.sketch.com/",
+  "name": "Sketch",
+  "description": "Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment.",
+  "url": "https://www.sketch.com/",
+  "applicationCategory": "DesignApplication",
+  "operatingSystem": "macOS",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.sketch.com/pricing/"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Sketch",
+    "url": "https://www.sketch.com/",
+    "sameAs": [
+      "https://github.com/sketch-hq",
+      "https://www.linkedin.com/company/sketchbv",
+      "https://x.com/sketch"
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://developer.sketch.com/"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "API Documentation",
+    "target": "https://developer.sketch.com/"
+  },
+  "subjectOf": [
+    {
+      "@type": "WebAPI",
+      "name": "Sketch Cloud API",
+      "description": "REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication.",
+      "url": "https://developer.sketch.com/",
+      "endpointURL": "https://api.sketch.cloud/v1",
+      "documentation": "https://developer.sketch.com/"
+    }
+  ]
+}
