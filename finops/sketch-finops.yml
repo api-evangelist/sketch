@@ -1,0 +1,33 @@
+name: Sketch FinOps
+description: Financial operations and cost management guidance for Sketch API and cloud platform usage.
+url: https://www.sketch.com/pricing/
+considerations:
+  - name: Per-Editor Seat Billing
+    description: Costs scale directly with the number of editors. Viewers are free and unlimited on all plans.
+    recommendation: Audit active editors regularly and downgrade or remove inactive seats to control costs.
+  - name: Annual vs Monthly Billing
+    description: All subscription plans are priced for annual billing. Monthly billing may carry a higher per-seat cost.
+    recommendation: Commit to annual billing when team size is predictable to take advantage of lower per-seat rates.
+  - name: Volume Discounts
+    description: Teams with 10 or more editors qualify for volume-based pricing that can reduce per-seat costs.
+    recommendation: Contact Sketch sales for volume pricing once your team reaches 10+ editors.
+  - name: Storage Allocation
+    description: Standard plan provides 50 GB per editor. Enterprise plan provides unlimited storage.
+    recommendation: Monitor storage usage; consider upgrading to Enterprise if storage limits are a concern rather than paying per-seat overages.
+  - name: SCIM and SSO Gating
+    description: SSO is gated at Professional tier ($24/editor/month) and SCIM provisioning at Enterprise tier ($44/editor/month). Using identity provider automation requires the highest plan tier.
+    recommendation: Factor in the cost uplift from Standard to Professional or Enterprise when planning identity management integrations.
+  - name: API Access Cost
+    description: The Sketch Cloud REST API (api.sketch.cloud/v1) is included with all paid plans. There is no separate API usage fee documented.
+    recommendation: API costs are embedded in seat licensing; no additional metered charges apply to REST API calls.
+  - name: Non-Profit and Education Discounts
+    description: Sketch offers a 50% discount for qualifying non-profits and a free tier for educational institutions.
+    recommendation: Apply for the non-profit or education program before purchasing to reduce total cost.
+  - name: One-Time License Option
+    description: The $120/seat Mac-only perpetual license includes one year of updates but excludes collaboration features. It may be cost-effective for solo designers who do not need cloud features.
+    recommendation: Evaluate whether collaboration features justify the recurring subscription cost versus the one-time license for individual contributors.
+cost_optimization:
+  - Audit editor seats quarterly to remove inactive users
+  - Use free Viewer accounts for stakeholders who only review designs
+  - Leverage the 30-day free trial before committing to a plan tier
+  - Negotiate custom pricing for Private Cloud deployments at Enterprise scale

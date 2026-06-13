@@ -1,0 +1,31 @@
+name: Sketch API Rate Limits
+description: Rate limiting information for the Sketch Cloud REST API (https://api.sketch.cloud/v1).
+url: https://developer.sketch.com/
+notes:
+  - Sketch does not publicly document specific rate limit thresholds in their developer documentation.
+  - Developers should implement conservative retry logic and treat all HTTP 429 responses as signals to apply indefinite backoff.
+  - No explicit rate limit values, headers, or Retry-After behavior is documented in official sources.
+headers:
+  - name: HTTP 429
+    description: Too Many Requests — back off and retry after a delay. Exact backoff window is not specified.
+pagination:
+  type: cursor-based
+  description: Use the meta.cursor field from API responses to retrieve subsequent pages of results.
+  page_size: not documented
+webhooks:
+  available: false
+  notes: Sketch does not currently offer a webhook system. Polling is required for change detection.
+scim:
+  available: true
+  plan_required: Enterprise
+  version: "2.0"
+  supported_idps:
+    - Okta
+    - Microsoft Entra ID
+  operations:
+    - Create users
+    - Read users
+    - List users
+    - Update users
+    - Deactivate users
+    - Delete users

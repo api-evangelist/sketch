@@ -1,0 +1,64 @@
+name: Sketch Plans and Pricing
+description: Pricing plans for Sketch, the digital design tool for Mac and web collaboration.
+url: https://www.sketch.com/pricing/
+plans:
+  - name: Standard
+    description: Core design and collaboration features for teams.
+    price: 12.00
+    unit: per editor/month (billed annually)
+    features:
+      - Real-time collaboration
+      - Unlimited documents
+      - Unlimited free viewers
+      - Document version history
+      - Free developer handoff
+      - 1 Workspace
+      - 50 GB storage per editor
+      - Native Mac app
+      - Web app on any browser
+      - iPhone and iPad app
+  - name: Professional
+    description: Advanced access controls and SSO for growing teams.
+    price: 24.00
+    unit: per editor/month (billed annually)
+    features:
+      - All Standard features
+      - Single Sign-On (SSO)
+      - Project archiving
+      - Permissions groups
+  - name: Enterprise
+    description: Enterprise-grade security, provisioning, and dedicated support.
+    price: 44.00
+    unit: per editor/month (billed annually)
+    features:
+      - All Professional features
+      - SCIM provisioning (Okta, Microsoft Entra ID)
+      - BYOK encryption
+      - Dedicated support
+      - Custom reviews and terms
+      - Unlimited storage
+  - name: Private Cloud
+    description: Private cloud deployment with full control over hosting location.
+    price: custom
+    unit: contact sales
+    features:
+      - All Professional features
+      - Private cloud environment
+      - Choice of hosting locations
+      - Unlimited Workspaces
+      - SCIM provisioning
+      - BYOK encryption
+  - name: Mac-only License
+    description: One-time perpetual license for offline use on Mac (no collaboration).
+    price: 120.00
+    unit: per seat (one-time, includes 1 year of updates)
+    features:
+      - Native Mac app
+      - Design, prototype, and illustration
+      - Offline work capability
+      - No collaboration features
+notes:
+  - 30-day free trial available, no credit card required
+  - 50% discount for qualifying non-profit organizations
+  - Free tier available for educational institutions
+  - Volume-based pricing available for teams of 10 or more editors

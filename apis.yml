@@ -1,0 +1,64 @@
+aid: sketch
+name: Sketch
+description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, enabling workspace member management, document access, and SCIM provisioning for enterprise identity workflows.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+type: Index
+tags:
+  - Design
+  - Collaboration
+  - Prototyping
+  - Workspaces
+  - Documents
+  - Libraries
+  - Components
+apis:
+  - aid: sketch:sketch-cloud-api
+    name: Sketch Cloud API
+    description: REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication with scopes for reading and writing workspace data.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.sketch.com/
+    baseURL: https://api.sketch.cloud/v1
+    tags:
+      - Workspaces
+      - Members
+      - Documents
+      - Authentication
+    properties:
+      - type: Documentation
+        url: https://developer.sketch.com/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/plans/sketch-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/rate-limits/sketch-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/finops/sketch-finops.yml
+common:
+  - type: Website
+    url: https://www.sketch.com/
+  - type: Documentation
+    url: https://developer.sketch.com/
+  - type: GitHubOrg
+    url: https://github.com/sketch-hq
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sketchbv
+  - type: Blog
+    url: https://www.sketch.com/blog/
+  - type: Pricing
+    url: https://www.sketch.com/pricing/
+  - type: StatusPage
+    url: https://status.sketch.com/
+  - type: X
+    url: https://x.com/sketch
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/plans/sketch-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/rate-limits/sketch-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/finops/sketch-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
