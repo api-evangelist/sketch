@@ -49,9 +49,21 @@
       "date": "2025-05-27"
     },
     {
-      "title": "Our favorite features from 2024 — and what's next",
+      "title": "Our favorite features from 2024 \u2014 and what's next",
       "url": "https://www.sketch.com/blog/sketch-in-2024/",
       "date": "2024-12-17"
     }
-  ]
+  ],
+  "repo": "sketch",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/sketchbv",
+      "feed_url": "https://www.linkedin.com/company/sketchbv",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
