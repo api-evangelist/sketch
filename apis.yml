@@ -1,7 +1,7 @@
 aid: sketch
 name: Sketch
 description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, enabling workspace member management, document access, and SCIM provisioning for enterprise identity workflows.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/apis.yml
 created: "2026-06-13"
 modified: "2026-06-13"
@@ -19,7 +19,7 @@ apis:
   - aid: sketch:sketch-cloud-api
     name: Sketch Cloud API
     description: REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication with scopes for reading and writing workspace data.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.sketch.com/
     baseURL: https://api.sketch.cloud/v1
     tags:
