@@ -1,61 +1,13 @@
 {
-  "aid": "sketch",
-  "url": "https://www.sketch.com/blog/",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "Keep control when sharing design work with clients and teams",
-      "url": "https://www.sketch.com/blog/sharing-design-work-with-previews/",
-      "date": "2026-02-20"
-    },
-    {
-      "title": "Five ways we've been using our MCP server",
-      "url": "https://www.sketch.com/blog/mcp-server-use-cases/",
-      "date": "2026-02-05"
-    },
-    {
-      "title": "9 reasons to choose Sketch in 2026",
-      "url": "https://www.sketch.com/blog/9-reasons-to-choose-sketch-in-2026/",
-      "date": "2026-01-26"
-    },
-    {
-      "title": "Everything we shipped at Sketch in 2025",
-      "url": "https://www.sketch.com/blog/sketch-in-2025/",
-      "date": "2025-12-16"
-    },
-    {
-      "title": "A guided tour of Copenhagen",
-      "url": "https://www.sketch.com/blog/a-tour-of-copenhagen/",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "How Ben McCarthy is bringing Obscura's vision to photo editing",
-      "url": "https://www.sketch.com/blog/obscura-studio/",
-      "date": "2025-09-01"
-    },
-    {
-      "title": "A new chapter for the Command Bar",
-      "url": "https://www.sketch.com/blog/command-bar-athens/",
-      "date": "2025-05-27"
-    },
-    {
-      "title": "Frames and Graphics: A not-so-short guide",
-      "url": "https://www.sketch.com/blog/frames/",
-      "date": "2025-05-27"
-    },
-    {
-      "title": "Rethinking layout in Sketch with Stacks",
-      "url": "https://www.sketch.com/blog/stacks/",
-      "date": "2025-05-27"
-    },
-    {
-      "title": "Our favorite features from 2024 \u2014 and what's next",
-      "url": "https://www.sketch.com/blog/sketch-in-2024/",
-      "date": "2024-12-17"
-    }
-  ],
   "repo": "sketch",
   "feeds": [
+    {
+      "source": "https://www.sketch.com/blog/feed.xml",
+      "feed_url": "https://www.sketch.com/blog/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/sketchbv",
       "feed_url": "https://www.linkedin.com/company/sketchbv",
@@ -65,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
