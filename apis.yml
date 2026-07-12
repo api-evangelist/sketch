@@ -37,6 +37,12 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/finops/sketch-finops.yml
 common:
+  - type: TrustCenter
+    url: security/sketch-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/sketch-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/sketch-domain-security.yml
   - type: Website
     url: https://www.sketch.com/
   - type: Documentation
