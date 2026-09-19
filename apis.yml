@@ -34,6 +34,14 @@ tags:
   - Design
   - Collaboration
   - Prototyping
+  - Workspace
+  - Documents
+  - Libraries
+  - Components
+tags_raw:
+  - Design
+  - Collaboration
+  - Prototyping
   - Workspaces
   - Documents
   - Libraries
@@ -46,6 +54,11 @@ apis:
     humanURL: https://developer.sketch.com/
     baseURL: https://api.sketch.cloud/v1
     tags:
+      - Workspace
+      - Members
+      - Documents
+      - Authentication
+    tags_raw:
       - Workspaces
       - Members
       - Documents
