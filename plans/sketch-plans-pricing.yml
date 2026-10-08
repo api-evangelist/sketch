@@ -66,3 +66,48 @@ notes:
   - 50% discount for qualifying non-profit organizations
   - Free tier available for educational institutions
   - Volume-based pricing available for teams of 10 or more editors
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  - seat
+  - subscription
+  units:
+  - seat
+  plans:
+  - name: Standard
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Professional
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Enterprise
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Private Cloud
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Mac-only License
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods: []
