@@ -1,4 +1,4 @@
-# Sketch (sketch)
+# Sketch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,65 +66,105 @@
 
 Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, enabling workspace member management, document access, and SCIM provisioning for enterprise identity workflows.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/apis.yml)
+**Areas:** Design · Collaboration · Prototyping · Workspace · Documents · Library · Components
 
-## Scope
+## Sketch on APIs.io
 
-- **Type:** Index
+Everything profiled for Sketch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sketch/](https://apis.io/providers/sketch/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Design
-- Collaboration
-- Prototyping
-- Workspaces
-- Documents
-- Libraries
-- Components
+- [Sketch Cloud API](https://apis.io/apis/sketch/sketch-cloud-api/) — REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (3)
 
-### Sketch Cloud API
+Authentication, trust centre, and vulnerability disclosure.
 
-REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication with scopes for reading and writing workspace data.
+- [Sketch Domain Security](https://apis.io/security/sketch/sketch-domain-security/)
+- [Sketch Trust Center](https://apis.io/security/sketch/sketch-trust-center/)
+- [Sketch Vulnerability Disclosure](https://apis.io/security/sketch/sketch-vulnerability-disclosure/)
 
-- **Human URL:** [https://developer.sketch.com/](https://developer.sketch.com/)
-- **Base URL:** `https://api.sketch.cloud/v1`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Workspaces
-- Members
-- Documents
-- Authentication
+- [Sketch Plans Pricing](https://apis.io/plans/sketch/sketch-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://developer.sketch.com/)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/plans/sketch-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/rate-limits/sketch-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/finops/sketch-finops.yml)
+Published request limits.
 
-## Common Properties
+- [Sketch Rate Limits](https://apis.io/rate-limits/sketch/sketch-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Sketch Finops](https://apis.io/finops/sketch/sketch-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.sketch.com/)
 - [Documentation](https://developer.sketch.com/)
-- [Git Hub Org](https://github.com/sketch-hq)
-- [LinkedIn](https://www.linkedin.com/company/sketchbv)
-- [Blog](https://www.sketch.com/blog/)
 - [Pricing](https://www.sketch.com/pricing/)
-- [Status Page](https://status.sketch.com/)
-- [X (Twitter)](https://x.com/sketch)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/plans/sketch-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/rate-limits/sketch-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/finops/sketch-finops.yml)
+- [Blog](https://www.sketch.com/blog/)
+- [Status](https://status.sketch.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 15.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 26.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sketch/](https://apis.io/providers/sketch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sketch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sketch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
